@@ -20,4 +20,11 @@ from django.views.generic.base import TemplateView
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name='pages/index.html')),
+    url(r'^general/$', TemplateView.as_view(template_name='pages/general.html')),
+    url(r'^sfyc/$', TemplateView.as_view(template_name='pages/sfyc.html')),
+    url(r'^costs/$', TemplateView.as_view(template_name='pages/costs.html')),
+    url(r'^roster/$', TemplateView.as_view(template_name='pages/roster.html')),
+    url(r'^hssailing/$', TemplateView.as_view(template_name='pages/hssailing.html')),
+    url(r'^recruiting/$', TemplateView.as_view(template_name='pages/recruiting.html')),
+    url(r'^schedule/$', TemplateView.as_view(template_name='pages/index.html')),
 ]
