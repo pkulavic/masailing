@@ -26,5 +26,7 @@ urlpatterns = [
     url(r'^roster/$', TemplateView.as_view(template_name='pages/roster.html')),
     url(r'^hssailing/$', TemplateView.as_view(template_name='pages/hssailing.html')),
     url(r'^recruiting/$', TemplateView.as_view(template_name='pages/recruiting.html')),
-    url(r'^schedule/$', TemplateView.as_view(template_name='pages/index.html')),
+    url(r'^schedule/$', TemplateView.as_view(template_name='pages/schedule.html')),
+    url(r'^test/$', TemplateView.as_view(template_name='pages/test.html')),
+    url(r'^test2/$', TemplateView.as_view(template_name='pages/test2.html')),
 ]
